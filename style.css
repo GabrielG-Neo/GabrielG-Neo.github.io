@@ -1,18 +1,17 @@
 * {
-    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    font-style: italic;
+    color: rgb(234, 248, 237);
 }
 
 body {
     background-image: url('../GabrielG-Neo.github.io/Images/Background-GIFs.gif');
-    
 }
 
 a {
+    color: rgb(42, 231, 17);
     font-size: 20px;
-    padding: 0px;
-    color: rgb(248, 238, 238);
+    padding: 20px;
     text-decoration: underline;
 }
 
@@ -47,7 +46,8 @@ aside {
     background-image: url('../GabrielG-Neo.github.io/Images/darkbackground.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
-    margin: 150px 10px 10px 20px;
+    margin: 150px 20px 10px 20px;
+}
 }
 
 #front-page h2 {
@@ -67,9 +67,7 @@ aside {
     display: inline-flex;
     flex-flow: nowrap;
     padding: 35px;
-    margin-right: 400px;
-    margin-left: 30px;
-    margin-top: 150px;
+    margin: 150px 400px 0px 30px;
     background-image: url('../GabrielG-Neo.github.io/Images/darkbackground.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -78,6 +76,8 @@ aside {
 #about-me h1 {
     font-size: 40px;
     margin-left: 20px;
+    color: rgb(42, 231, 17);
+    
 }
 
 #about-me p {
@@ -85,7 +85,6 @@ aside {
     padding: 10px;
     margin-bottom: 10px;
     word-spacing: 0.2em;
-    
 }
 
 .swole {
@@ -93,11 +92,9 @@ aside {
 }
 
 #work {
-    display: inline-flex;
+    display: flex;
     padding: 40px;
-    margin-left: 400px;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin: 150px 30px 150px 400px;
     background-image: url('../GabrielG-Neo.github.io/Images/darkbackground.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -107,6 +104,7 @@ aside {
     font-size: 40px;
     margin-top: 50px;
     margin-left: 10px;
+    color: rgb(42, 231, 17);
 }
 
 
@@ -116,11 +114,10 @@ aside {
     justify-content: center;
 }
 
-#contact {
+#footer {
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     text-align: center;
     list-style: none;
-    
 }
 
