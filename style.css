@@ -24,7 +24,7 @@ a {
 }
 
 .portfolio {
-    background-image: url();
+    background-image: url('../GabrielG-Neo.github.io/Images/Profile\ Pic\ \(3\).jpg');
     background-size: cover;
     padding: 0px;
     height: 400px;
@@ -45,7 +45,7 @@ aside {
     justify-content: left;
     padding: 30px;
     height: 200px;
-    background-image: url('../Assets/darkbackground.jpg');
+    background-image: url('../GabrielG-Neo.github.io/Images/darkbackground.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 100px;
@@ -71,7 +71,7 @@ aside {
     margin-right: 400px;
     margin-left: 30px;
     margin-top: 150px;
-    background-image: url('../Assets/darkbackground.jpg');
+    background-image: url('../GabrielG-Neo.github.io/Images/darkbackground.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -99,7 +99,7 @@ aside {
     margin-left: 400px;
     margin-top: 150px;
     margin-bottom: 150px;
-    background-image: url('../Assets/darkbackground.jpg');
+    background-image: url('../GabrielG-Neo.github.io/Images/darkbackground.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
 }
