@@ -5,12 +5,13 @@
 }
 
 body {
-    background-color: rgb(12, 12, 12);
+    background-image: url('../GabrielG-Neo.github.io/Images/Background-GIFs.gif');
     
 }
 
 a {
-    padding: 10px;
+    font-size: 20px;
+    padding: 0px;
     color: rgb(248, 238, 238);
     text-decoration: underline;
 }
@@ -20,7 +21,7 @@ a {
     justify-content: center;
     list-style: none;
     font-size: 20px;
-    padding: 0px;
+    padding: 30px;
 }
 
 .portfolio {
@@ -35,20 +36,18 @@ aside {
     float: right;
     margin-right: 100px;
     margin-bottom: 20px;
+    margin-top: 20px;
     padding: 20px;
 }
 
 
 
 #front-page {
-    display: block;
-    justify-content: left;
     padding: 30px;
-    height: 200px;
     background-image: url('../GabrielG-Neo.github.io/Images/darkbackground.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
-    margin-top: 100px;
+    margin: 150px 10px 10px 20px;
 }
 
 #front-page h2 {
@@ -118,8 +117,10 @@ aside {
 }
 
 #contact {
-    display: flex;
-    flex-flow: nowrap;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    list-style: none;
     
 }
 
