@@ -1,7 +1,6 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-    color: rgb(234, 248, 237);
 }
 
 body {
@@ -47,10 +46,12 @@ aside {
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 150px 20px 10px 20px;
+    color: rgb(42, 231, 17);
 }
 }
 
 #front-page h2 {
+    color: rgb(42, 231, 17);
     font-size: 125%;
     letter-spacing: 0.1em;
     text-align: left;
@@ -61,11 +62,14 @@ aside {
     letter-spacing: 0.1em;
     text-align: left;
     text-indent: 7%;
+    color: white;
+    
 }
 
 #about-me {
     display: inline-flex;
     flex-flow: nowrap;
+    color: white;
     padding: 35px;
     margin: 150px 400px 0px 30px;
     background-image: url('../GabrielG-Neo.github.io/Images/darkbackground.jpg');
