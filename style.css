@@ -38,8 +38,6 @@ aside {
     padding: 20px;
 }
 
-
-
 #front-page {
     padding: 30px;
     background-image: url('../GabrielG-Neo.github.io/Images/darkbackground.jpg');
@@ -47,7 +45,6 @@ aside {
     background-repeat: no-repeat;
     margin: 150px 20px 10px 20px;
     color: rgb(42, 231, 17);
-}
 }
 
 #front-page h2 {
@@ -63,7 +60,6 @@ aside {
     text-align: left;
     text-indent: 7%;
     color: white;
-    
 }
 
 #about-me {
@@ -81,7 +77,6 @@ aside {
     font-size: 40px;
     margin-left: 20px;
     color: rgb(42, 231, 17);
-    
 }
 
 #about-me p {
@@ -125,3 +120,8 @@ aside {
     list-style: none;
 }
 
+@media only all and (max-width: 600px) {
+    body {
+      background-color: none;
+    }
+}
