@@ -75,7 +75,7 @@ aside {
 
 #about-me h1 {
     font-size: 40px;
-    margin-left: 20px;
+    margin-left: 0px;
     color: rgb(42, 231, 17);
 }
 
@@ -83,11 +83,8 @@ aside {
     font-size: 20px;
     padding: 10px;
     margin-bottom: 10px;
+    margin-left: 20px;
     word-spacing: 0.2em;
-}
-
-.swole {
-    float: right;
 }
 
 #work {
