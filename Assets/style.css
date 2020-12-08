@@ -1,124 +1,81 @@
-* {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#particles-js {
+    background: black;
+}
+    
+.heading {
+    position: absolute;
+    letter-spacing: 10px;
+    color: rgb(245, 238, 238);
+    margin-top: 200px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+
+.heading h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card {
+    align-items: center;
+    margin-top: 0px;
+    color: rgb(248, 244, 244);
+    font-size: 18px;
+    background-color: transparent;   
+}
+
+.card-img {
+    margin-bottom: 20px;;
+}
+
+.workImages {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 body {
-    background-image: url('../GabrielG-Neo.github.io/Images/Background-GIFs.gif');
+    text-align: center;
+    background: black;
+
+}
+.menu ul  {
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
 }
 
 a {
-    color: rgb(42, 231, 17);
-    font-size: 20px;
-    padding: 20px;
-    text-decoration: underline;
-}
-
-.menu ul {
     display: flex;
-    justify-content: center;
-    list-style: none;
-    font-size: 20px;
-    padding: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
 
-.portfolio {
-    background-image: url('../GabrielG-Neo.github.io/Images/Profile\ Pic\ \(3\).jpg');
-    background-size: cover;
-    padding: 0px;
-    height: 400px;
-    width:  250px;
+.col {
+    font-size: 10px;
+    letter-spacing: 1px;
 }
 
-aside {
-    float: right;
-    margin-right: 100px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    padding: 20px;
-}
-
-#front-page {
-    padding: 30px;
-    background-image: url('../GabrielG-Neo.github.io/Images/darkbackground.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 150px 20px 10px 20px;
-    color: rgb(42, 231, 17);
-}
-
-#front-page h2 {
-    color: rgb(42, 231, 17);
-    font-size: 125%;
-    letter-spacing: 0.1em;
-    text-align: left;
-}
-
-#front-page h1 {
-    font-size: 30px;
-    letter-spacing: 0.1em;
-    text-align: left;
-    text-indent: 7%;
-    color: white;
-}
-
-#about-me {
-    display: inline-flex;
-    flex-flow: nowrap;
-    color: white;
-    padding: 35px;
-    margin: 150px 400px 0px 30px;
-    background-image: url('../GabrielG-Neo.github.io/Images/darkbackground.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#about-me h1 {
-    font-size: 40px;
-    margin-left: 0px;
-    color: rgb(42, 231, 17);
-}
-
-#about-me p {
-    font-size: 20px;
-    padding: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    word-spacing: 0.2em;
-}
-
-#work {
-    display: flex;
-    padding: 40px;
-    margin: 150px 30px 150px 400px;
-    background-image: url('../GabrielG-Neo.github.io/Images/darkbackground.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#work h1 {
-    font-size: 40px;
-    margin-top: 50px;
-    margin-left: 10px;
-    color: rgb(42, 231, 17);
-}
-
-
-#work ul {
-    display: flex;
-    flex-flow: nowrap;
-    justify-content: center;
-}
-
-#footer {
-    font-size: 30px;
-    margin-bottom: 50px;
-    text-align: center;
-    list-style: none;
-}
-
-@media only all and (max-width: 600px) {
-    body {
-      background-color: none;
-    }
+.btn {
+    background:
+    linear-gradient(
+    to right,
+    var(--mainColor) 0%,
+    var(--mainColor) 5px,
+    transparent 5px
+    );
 }
