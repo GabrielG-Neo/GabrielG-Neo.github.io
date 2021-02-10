@@ -11,10 +11,7 @@
     
 .heading {
     position: absolute;
-    letter-spacing: 10px;
-    color: rgb(245, 238, 238);
     margin-top: 200px;
-    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 20px;
 	
@@ -23,6 +20,7 @@
 .heading h1  {
     font-size: 80px;
     font-weight: bold;
+    letter-spacing: 5px;
     text-align: center;
     margin-top: 50px;
 	color: #070707;
@@ -30,12 +28,19 @@
 }
 
 .heading h3  {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
+    letter-spacing: 10px;
     text-align: center;
     margin-bottom: 70px;
 	color: #070707;
 	text-shadow: 2px 2px 7px #f8f7f7;
+}
+
+.infobutt {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .card {
