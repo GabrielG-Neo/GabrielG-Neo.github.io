@@ -11,4 +11,4 @@ https://gabrielg-neo.github.io/
 https://github.com/GabrielG-Neo/GabrielG-Neo.github.io.git
 
 ## Sneak Peak
-
+![image](https://user-images.githubusercontent.com/70115497/107606435-b0aca580-6bfb-11eb-8ef3-3fbbb295d27f.png)
