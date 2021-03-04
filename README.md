@@ -1,6 +1,6 @@
 # GabrielG-Neo.github.io
 
-In this web page you will find a section where I tell you a bit about myself, my background and my intentions in becoming part of the web development world.
+In my portfolio you will find a section where I tell you a bit about myself, my background and my intentions in becoming part of the web development world.
 I do find myself absorbing the information more as I spend more time actually coding and reviewing the information I have been taught along with using all the tools and resouces available to me.
 Majority of this portfolio web page was created with the information I understand and also the information I need to dive deeper into.I am proud of what I have accomplished thus far, but am also eager and motivated to gain more understanding in the future.
 I have gained an understanding in many other frameworks, databases, and languages to help improve my skills in coding, creating, and updating my portfolio.
